@@ -26,7 +26,6 @@ body {
   padding: 16px 20px;
   margin-bottom: 16px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   transition: transform 0.2s;
@@ -89,3 +88,14 @@ body {
   margin-bottom: 30px;
 }
 
+.left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: 1;
+}
+
+.left > div {
+  flex: 1;
+  text-align: center;
+}
